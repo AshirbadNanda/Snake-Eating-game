@@ -26,18 +26,23 @@
 }
 
 .food {
-    background-color: green;
+    background: linear-gradient(rgb(255, 204, 0), rgb(255, 115, 0));
+    /* border: 1px solid greenyellow; */
+    border-radius: 50%;
 }
 
 .head {
-    background-color: red;
+    background: linear-gradient(rgb(206, 46, 46), rgb(108, 7, 9));
+    border-radius: 35%;
 }
 
 .fullbody {
-    background-color: purple;
+    background: linear-gradient(purple, rgb(192, 23, 244));
+    border-radius: 20%;
 }
 
 .score {
+
     position: absolute;
     top: 20px;
     left: 50%;
