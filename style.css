@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-image: url("https://cwh-full-next-space.fra1.digitaloceanspaces.com/videos/snake-game-in-javascript/SS4.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    background: linear-gradient(blue, orange);
+    width: 89vmin;
+    height: 100vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.food {
+    background-color: green;
+}
+
+.head {
+    background-color: red;
+}
+
+.fullbody {
+    background-color: purple;
+}
+
+.score {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.Hscore {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
